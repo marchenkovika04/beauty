@@ -896,5 +896,69 @@ ul.social2_icon li a:hover {
      color: #456ef7;
 }
 
+/* === Индивидуальные изменения (новичковый уровень) === */
 
+/* Изменение фона сайта */
+body {
+    background-color: #f3f6ff;   /* нежный голубовато-белый фон */
+    color: #444;
+}
+
+/* Изменение цвета крупных заголовков */
+h2 {
+    color: #3a4fb5;            /* спокойный синий */
+    font-weight: 700;
+}
+
+/* Цвет шапки */
+.header_full_bg {
+    background: #7bb8ff;       /* более мягкий голубой */
+}
+
+/* Кнопки главного баннера */
+.get_btn {
+    background-color: #4c4cff;   /* фиолетово-синий */
+    color: #fff;
+    border-radius: 4px;
+}
+.get_btn:hover {
+    background-color: #2a2ad6;
+}
+
+/* Кнопки "Придбати" */
+.read_more {
+    background-color: #6f42c1;  /* фиолетовый */
+    border-radius: 5px;
+}
+.read_more:hover {
+    background-color: #8b5cf6;
+}
+
+/* Блок "Наш товар" фон */
+.protien_main {
+    background-color: #eef2ff;  /* мягкий сиреневый оттенок */
+}
+
+/* Изменение футера */
+.footer {
+    background: #1c1c1c;        /* чуть светлее, чем было */
+}
+
+.footer h3 {
+    color: #bcd4ff;
+}
+
+ul.link_menu li a:hover {
+    color: #88aaff;             /* Светло-синий при наведении */
+}
+
+/* Кнопка “Надіслати” */
+.main_form .send_btn {
+    background-color: #4c4cff;
+    border-radius: 4px;
+}
+.main_form .send_btn:hover {
+    background-color: #7d7dff;
+    color: #fff;
+}
 /** end footer **/
